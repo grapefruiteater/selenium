@@ -103,15 +103,15 @@ if __name__ == "__main__":
     tmp_download_dir = f'{current_dir}\\tmpDownload'
     rm_dir(tmp_download_dir)
  
-    DIDs = ["Z21M","Z2BM","Z21C","Z22A","Y21G","Y2BM"]
+    DIDs = ["A"]
 
-    URL = 'https://o2-instance.apps.hi-ose-mfgt1a-prod.hijp.micron.com/YMS/#/?c.app=yip'
+    URL = 'https://***********'
     for DID in DIDs:
         driver = setting_driver(URL)
         Web_operation('120s', DID)
  
-    DIDs = ["Z32M","Z32D","Z32C","Z32B","Y32A","Y31H","Y31G","E32A"]
-    URL = 'https://o2-instance.apps.hi-ose-mfgt1a-prod.hijp.micron.com/YMS/#/?c.app=yip'
+    DIDs = ["A"]
+    URL = 'https://***********'
     for DID in DIDs:
         driver = setting_driver(URL)
         Web_operation('130s', DID)
